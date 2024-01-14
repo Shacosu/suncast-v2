@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+# Suncast Web Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/Shacosu/suncast-v2/assets/73619699/c764dba2-875d-4eba-ae99-d6664025d78a)
 
-Currently, two official plugins are available:
+Bienvenido al repositorio del proyecto mejorado de la página web de Suncast, una empresa líder en el campo de las energías renovables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descripción
 
-## Expanding the ESLint configuration
+Este proyecto es una versión mejorada de la página web de Suncast, diseñada para ofrecer una experiencia más intuitiva y atractiva para los usuarios. La empresa ha logrado reconocimientos notables, incluyendo premios Avonni en las categorías de Energía y Mujer Innovadora, así como el segundo lugar en el INRIA Trophée Startup 2021.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Capturas de Pantalla
 
-- Configure the top-level `parserOptions` property like this:
+_Inserta capturas de pantalla o enlaces a imágenes que muestren cómo se ve el proyecto en acción._
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Instalación
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
+
+1. Clona este repositorio: `git clone [URL del repositorio]`
+2. Instala las dependencias: `npm install`
+3. Ejecuta la aplicación: `npm start`
+
+## Uso
+
+Proporciona información sobre cómo utilizar y explorar la página web mejorada de Suncast. Incluye ejemplos de código o instrucciones esenciales.
+
+## Dependencias
+
+Este proyecto utiliza las siguientes dependencias principales:
+
+- [framer-motion](https://www.npmjs.com/package/framer-motion)
+- [localforage](https://www.npmjs.com/package/localforage)
+- [match-sorter](https://www.npmjs.com/package/match-sorter)
+- [react](https://www.npmjs.com/package/react)
+- [react-dom](https://www.npmjs.com/package/react-dom)
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+- [react-slick](https://www.npmjs.com/package/react-slick)
+- [slick-carousel](https://www.npmjs.com/package/slick-carousel)
+- [sort-by](https://www.npmjs.com/package/sort-by)
+
+(_Asegúrate de actualizar las versiones según las indicadas en tu archivo `package.json`._)
+
+## Contribución
+
+Si deseas contribuir al desarrollo de este proyecto, sigue las pautas de contribución detalladas en [CONTRIBUTING.md].
+
+## Licencia
+
+Este proyecto está bajo la licencia [Nombre de la Licencia]. Consulta el archivo [LICENSE.md] para más detalles.
+
+## Contacto
+
+Para preguntas o comentarios, no dudes en ponerte en contacto con nosotros. Visita [nuestra página de contacto] para obtener más información.
+
+## Agradecimientos
+
+Queremos expresar nuestro agradecimiento a [nombre de las empresas o individuos] por su apoyo y colaboración en el desarrollo de este proyecto.
+
